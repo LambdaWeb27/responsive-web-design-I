@@ -6,7 +6,6 @@
 	max-width: 100%;
 	/* border:1px solid black; */
 	font-family: "Titillium Web", sans-serif;
-	/* font-weight:bold; */
 }
 
 /* Your code starts here! */
@@ -154,13 +153,13 @@ footer {
 	text-align: center;
 }
 
-/* h2 {
+h2 {
 	font-family: 'Noto Sans', sans-serif;
 }
 
 h1 {
 	font-family: 'Lobster', cursive;
-} */
+}
 /* Services Page */
 .services-header-img {
 	width:100%;
@@ -271,7 +270,7 @@ h1 {
         padding:0;
         
     }
-    .nav-container ul li {
+    ul li {
         padding:10px 15px;
         border-bottom:1px solid black;
         width:100%;
@@ -313,28 +312,5 @@ h1 {
 
     h2{
         padding-bottom:10px;
-	}
-	.digital-positions{
-		display:flex;
-		flex-direction: column;
-	}
-	.digital-positions div{
-		width:100%;
-	}
-	.facts{
-		display:flex;
-		flex-direction:column;
-		align-items:center;
-	}
-	.facts div{
-		width:100%;
-	}
-	.facts .service-content ul li{
-		text-align:left;
-		padding:10px 15px;
-		width:100%;
-	}
-	/* .info-img{
-		display:none;
-	}
-}  */
+    }
+}
